@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart Quantity</title>
+    </head>
+
+    <body>
+        <script>
+            let object = {
+                name: 'Tshering',
+                course: 'IT',
+                age: 18,
+
+                rating: {
+                    star: 5
+
+                },
+            };
+
+            console.log(object);
+            console.log(object.name);
+            console.log(object.age);
+
+            console.log(object.rating.star);
+
+            object.newProperty = 'New';
+            
+            delete object.newProperty;
+
+            console.log(object);
+        </script>
+    </body>
+</html>

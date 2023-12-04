@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+
+        <style>
+            button{
+                border: none;
+                background-color: rgb(161, 102, 47);
+                color: white;
+                padding: 10px 25px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <button onclick="
+    calculator += '1';
+    console.log(calculator);
+    ">1</button>
+
+    <button onclick="
+    calculator +='2';
+    console.log(calculator);
+    ">2</button>
+
+    <button onclick="
+    calculator +='3';
+    console.log(calculator);
+    ">3</button>
+
+    <button onclick="
+     calculator = '+';
+     console.log(calculator);
+
+    ">+</button>
+
+    <button onclick="
+    calculator = eval(calculator);
+    console.log(calculator);
+    ">=</button>
+
+    <body>
+        <script>
+
+            let calculator = '';
+
+        </script>
+    </body>
+</html>

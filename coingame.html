@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bolleans</title>
+    </head>
+
+    <body>
+        <script>
+
+            const choice = Math.random();
+
+           let result = choice>0 && choice<1/2 ? 'head' : 'tail';
+           console.log(result);
+         
+            let guess = 'head';
+
+            if(result == guess){
+                console.log('You win');
+            }else{
+                console.log('You lose');
+            }
+        </script>
+    </body>
+</html>
